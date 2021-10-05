@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+  border-radius: inherit;
+}
+html {
+  font-size: 62.5%;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+body {
+  box-sizing: border-box;
+  background-color: #eeeeee;
+  padding: 2rem 5rem;
+}
+.heading_main {
+  text-align: center;
+}
+.heading_main_primary {
+  display: inline-block;
+  font-size: 3.2rem;
+  letter-spacing: 0.3rem;
+  color: #141414;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #39a2db;
+}
+.review {
+  background-color: #fff;
+  width: 80%;
+  height: 80vh;
+  box-shadow: 0.2rem 0.2rem 0.5rem rgba(0, 0, 0, 0.1);
+  margin: auto;
+  transform: translatey(4%);
+}
+.review-img_box {
+  border-radius: 50%;
+  overflow: hidden;
+}
+.review-img {
+  height: 16rem;
+  width: 16rem;
+  border: 2px solid #39a2db;
+}
+.review-img_box {
+  position: relative;
+}
+.review-img_box::before {
+  content: "\201D";
+  font-size: 9rem;
+  height: 5rem;
+  width: 5rem;
+  background-color: #39a2db;
+  color: #fff;
+  top: 0.1rem;
+  border-radius: 50%;
+  position: absolute;
+}
+.image-box {
+  text-align: center;
+  padding-top: 3rem;
+}
+.heading_name {
+  font-size: 2rem;
+  margin-top: 1rem;
+  color: #141414;
+  letter-spacing: 0.5rem;
+}
+.heading_profession {
+  font-size: 2rem;
+  margin-top: 1rem;
+  font-weight: 400;
+  color: #39a2db;
+  letter-spacing: 0.3rem;
+}
+.paragraph {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+.paragraph_info {
+  font-size: 1.5rem;
+  padding: 0 1rem;
+  color: #141414;
+  letter-spacing: 0.1rem;
+  line-height: 2.5rem;
+}
+.btn_primary {
+  text-align: center;
+  margin-top: 2rem;
+}
+.btn_next,
+.btn_prev {
+  font-size: 3rem;
+  color: #39a2db;
+}
+.btn_next:hover,
+.btn_prev:hover,
+.btn_secondary-suprise:hover {
+  cursor: pointer;
+  color: #089dee;
+}
+.btn_secondary {
+  text-align: center;
+  margin-top: 2rem;
+}
+.btn_secondary-suprise {
+  width: 12.5rem;
+  height: 3rem;
+  font-size: 2rem;
+  background-color: #e4e9ec;
+  border: 2px solid #39a2db;
+  color: #39a2db;
+  border-radius: 8px;
+}
+.btn_secondary-suprise:active {
+  transform: translateY(-0.01rem) scaleY(0.9999);
+}
