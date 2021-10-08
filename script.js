@@ -57,7 +57,6 @@ window.addEventListener("DOMContentLoaded", function () {
 const reveal = function () {
   const item = reviews[currentItem];
   img.src = item.image;
-  console.log(item.image);
   job.textContent = item.job;
   author.textContent = item.name;
   info.textContent = item.text;
@@ -78,7 +77,6 @@ btn_prev.addEventListener("click", function () {
   if (currentItem > 0) {
     currentItem--;
     reveal();
-    console.log(currentItem);
   } else {
     currentItem = reviews.length - 1;
     reveal();
