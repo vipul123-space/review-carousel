@@ -5,7 +5,7 @@ const reviews = [
     id: 1,
     name: "Michael Dam",
     job: "software  engineer",
-    image: `http://127.0.0.1:8080/css/img4.jpg`,
+    image: `https://images.unsplash.com/photo-1581065178047-8ee15951ede6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=415&q=80`,
     text: ` I’m a software engineer in Santa Barbara, CA with a passion for computer science, 
     electrical engineering and embedded systems technology.I earned a Bachelor’s degree in Mechanical 
     Engineering.`,
@@ -14,7 +14,7 @@ const reviews = [
     id: 2,
     name: "Matila",
     job: "web designer",
-    image: `http://127.0.0.1:8080/css/img2.jpg`,
+    image: `https://images.unsplash.com/photo-1543165365-07232ed12fad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80`,
     text: `Hello! My name is Matila
     I’m a web designer and front-end web developer with over 20 years of professional experience in the design industry.
     and then a Master’s degree in Electrical Engineering from the University of California.`,
@@ -23,7 +23,7 @@ const reviews = [
     id: 3,
     name: "Jonas",
     job: "Machine learning engineer",
-    image: `http://127.0.0.1:8080/css/img3.jpg`,
+    image: `https://images.unsplash.com/photo-1561677843-39dee7a319ca?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80`,
     text: `Passionate machine learning engineer with 4+ years of experience in predictive 
     modeling and data mining. Excited to implement statistical machine learning solutions for 
     Macro Globe. At Stack Intellect, implemented demand forecasting models improving forecast 
@@ -33,7 +33,7 @@ const reviews = [
     id: 4,
     name: "Sarah",
     job: "web developer",
-    image: `http://127.0.0.1:8080/css/img1.jpg`,
+    image: `https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80`,
     text: `  I’m a web developer. I spend my whole day, practically every day,
     experimenting with HTML, CSS, and JavaScript; dabbling with Python and
     Ruby.`,
